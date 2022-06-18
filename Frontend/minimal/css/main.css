@@ -1,0 +1,141 @@
+.bg-magicark{
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* background-image: linear-gradient(180deg, #263377, #7d1785); */
+    background-image: url("../img/vecteezy_vector-retro-futuristic-background_.jpg");
+}
+
+.bg-dark-purple {
+    background-color: #15063d;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.battlemetrics {
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 0 0.5rem 0.5rem rgba(0,0,0,0.5);
+    transition: all;
+}
+
+.battlemetrics:hover {
+    box-shadow: 0 0 0.25rem 0.25rem #ffaff7;
+}
+
+.box-shadow-sm {
+    box-shadow: 0 0 0.5rem 0.25rem rgba(0,0,0,0.5);
+}
+
+.btn-outline-light {
+    border: 1px solid rgba(21, 3, 63, 0.5);
+    background-color: none;
+    color:#15063d;
+}
+
+.btn-outline-light:hover {
+    background-color: #15063d;
+    color:#ffaff7;
+}
+
+.card {
+    transition: box-shadow 0.25s;
+}
+
+.card:hover {
+    box-shadow: 0 0 0.25rem 0.25rem #ffaff7;
+}
+
+
+
+.fs-sm {
+    font-size: 0.75rem;
+}
+
+#intro-text {
+    color:rgba(21, 3, 63, 1);
+}
+
+.link {
+    text-decoration: none;
+    color: #c94478;
+}
+
+.link:hover {
+    color: #ff6aa4;
+}
+
+#magic-logo {
+    filter: drop-shadow(0 0 0.25rem rgba(255, 175, 247,0.25));
+}
+
+.nav-item, .nav-link {
+    color: #c94478;
+}
+
+.nav-link:hover {
+    color: #ff6aa4;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ff6aa4; 
+}
+
+.text-pink {
+    color: #ffaff7;
+}
+
+.text-pink-md {
+    color: #ff6aa4; 
+}
+
+/* Firefox */
+html {
+    scrollbar-color: #ff6aa4 #15063d;
+  }
+  
+  /* WebKit and Chromiums */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: #15063d;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#a8154d,25%, #ff6aa4);
+    border: 1px solid #15063d;
+    border-radius: 3px;
+  }
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) {} */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .bg-magicark{
+        /* height: 100vh; */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: initial;
+        /* background-image: linear-gradient(180deg, #263377, #7d1785); */
+        background-image: url("../img/vecteezy_vector-retro-futuristic-background_.jpg");
+    }
+
+    #intro-text {
+        font-family: sans-serif;
+        font-weight: 100 !important;
+        color:#ffaff7;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {}  */
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {} */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) {} */
